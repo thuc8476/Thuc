@@ -211,14 +211,11 @@ nav {
     margin-top: 50px;
     padding: 20px;
 
-    .video {
+    .video{
         display: flex;
         margin-top: 20px;
         gap: 10px;
-
         .box {
-            position: relative;
-
             i {
                 top: 50%;
                 left: 50%;
@@ -226,8 +223,6 @@ nav {
                 position: absolute;
                 color: aliceblue;
                 transform: translate(-50%, -50%);
-
-
             }
 
             h3 {
@@ -287,7 +282,8 @@ article {
         grid-column: 3/4;
         grid-row: 1/2;
         padding: 20px;
-        h1{
+
+        h1 {
             border-bottom: black solid 2px;
             display: inline;
         }
@@ -297,11 +293,13 @@ article {
 footer {
     width: 90%;
     margin: auto;
+
     .color {
         background-color: rgb(49, 48, 48);
         border-radius: 5px;
         margin: 20px;
         padding: 60px;
+
         .text {
             font-size: 9px;
             color: #ffffff;

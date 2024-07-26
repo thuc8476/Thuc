@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    height: 100vh;
+    background-image: url(./e44842e0a95b96aa69948da3009e4d5e.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: 758px;
+    width: 1154px;
+    background-color: #51C8BC;
+    border-radius: 30px;
+
+    .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.container-form {
+    padding: 20px 10px;
+}
+
+.container-left {
+    flex: 4;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+    .product-img {
+        position: absolute;
+        transform: translateX(20%);
+    }
+}
+
+.logo {
+    margin: 20px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.title-left {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 45px;
+    padding: 30px;
+}
+
+.container-right {
+    flex: 5;
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+}
+
+.container_right_top {
+    height: 40px;
+}
+
+.container-right-middle {
+    padding: 80px;
+
+    .title-right {
+        font-size: 45px;
+    }
+
+    .form-group {
+        width: 100%;
+        height: 50px;
+        margin: 10px 0;
+        position: relative;
+
+        input {
+            width: 100%;
+            padding: 10px 0;
+            border: none;
+            border-bottom: solid 2px #ccc;
+            outline: none;
+            
+        }
+        i {
+            right: 0;
+            top:calc(50% - 10px);
+            position: absolute;
+            transform: translateY(-50%);
+        }
+
+    }
+}
+
+.form-group1 {
+    padding: 20px;
+}
+
+.btn button {
+    width: 100%;
+    height: 57px;
+    background-color: #3BADCD;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.text-or {
+    margin: 20px;
+    text-align: center;
+}
+
+.otherway {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .social {
+        display: flex;
+    }
+}
+
+.otherway {
+    img {
+        width: 20px;
+        margin-right: 10px;
+    }
+}
+
+.container-right-bottom {
+    margin-top: 70px;
+    text-align: center;
+}
